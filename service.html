@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tres Mink | Services</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- tres mink :  Favicon -->
+    <link href="./images/favicon.png" rel="icon">
+
+    <!-- tres mink :  Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- tres mink :  Libraries Stylesheet -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="js/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- tres mink :  <link href="js/tresminkbox/css/tresminkbox.min.css" rel="stylesheet"> -->
+
+    <!-- tres mink :  Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- tres mink :  Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="set-body-width">
+    
+    <!--  𝓐𝓚𝓞 𝓒𝓡𝓔𝓐𝓣𝓘𝓞𝓝  -->
+<div id="top-target"></div>
+    <script src="./js/commonNavbar.js"></script>
+    <script>
+        function tmscroll(y){
+            window.scrollTo(0, y);
+        }
+    </script>
+      
+    <!-- tres mink :  Projects Start -->
+    <div class="container-xxl" style="display: block;overflow: hidden!important;;">
+        <div class="container">
+            <div class="section-title text-center">
+                <h1 class="mb-3">Our Services</h1>
+            </div>
+            <div class="row mt-1 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" id="all-click" data-filter=".hair" onclick="">Hair</li>
+                        <li class="mx-2" data-filter=".color" onclick="")">Color</li>
+                        <li class="mx-2" data-filter=".beauty" onclick="tmscroll(170)">Beauty</li>
+                        <li class="mx-2" data-filter=".nail" onclick="tmscroll(170)">Nail</li>
+                        <li class="mx-2" data-filter=".academy" onclick="tmscroll(170)">Academy</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="services-image-target" class="row g-4 portfolio-container" style="min-width: max-content;position: relative;">               
+            </div>
+            <div id="services-video-target" class="row g-4 portfolio-container" style="min-width: max-content;position: relative;">               
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("all-click").click();
+    </script>
+    <script src="./js/loopImageServices.js"></script>
+    <script src="./js/loopVideoServices.js"></script>
+    <script>
+        document.getElementById("all-click").click();
+    </script>
+    <!-- tres mink :  Projects End -->
+
+    <!-- tres mink :  Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- tres mink :  JavaScript Libraries -->   
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- tres mink :  <script src="js/tresminkbox/js/tresminkbox.min.js"></script> -->
+    <script src="js/main.js"></script>
+    <div style="position: fixed;display: block;"></div>
+    <div id="footer-target"></div>
+    <script src="./js/commonFooter.js" defer></script>  
+    <script>
+        let page = window.location.pathname
+          .split("/")
+          .pop()
+          .split(".")[0]
+          .toLocaleLowerCase();
+        $("#contact,#about,#service,#index").removeClass("active");
+        $("#" + page).addClass("active");
+    </script>
+</body>
+
+</html>

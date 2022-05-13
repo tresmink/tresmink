@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tres Mink | About</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- tres mink :  Favicon -->
+    <link href="./images/favicon.png" rel="icon" />
+
+    <!-- tres mink :  Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- tres mink :  Libraries Stylesheet -->
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="js/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- tres mink :  Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- tres mink :  Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="set-body-width">
+    <!--  𝓐𝓚𝓞 𝓒𝓡𝓔𝓐𝓣𝓘𝓞𝓝  -->
+    <div id="top-target"></div>
+    <div
+      class="container-xxl"
+      style="display: block; overflow: hidden !important"
+    >
+      <div class="container">
+        <div class="section-title text-center">
+          <h1 class="">About us</h1>
+        </div>
+      </div>
+    </div>
+    <!-- tres mink :  About Start -->
+    <div class="container-fluid overflow-hidden py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-1 col-md-0 col-sm-0"></div>
+          <div class="col-lg-5 col-md-6">
+              <img
+                class="img-fluid position-relative"
+                src="./images/about/2.jpg"
+                alt="tres mink india"
+                style="min-height: 320px;max-height: 320px;"
+              />
+          </div>
+          <div
+            class="col-lg-5 col-md-6 about-text py-1 wow fadeIn bg-light"
+            data-wow-delay="0.5s"
+            style="min-height: 320px;max-height: 320px;"
+          >
+            <h4>Trés Mink</h4>
+            <p>Enter a salon that is hip, compositionally motivating thus well
+              disposed you’ll feel like you’ve been coming here for quite a long
+              time! In this condition where customer comfort rules, we will
+              endeavour to find your wants with an enthusiasm for everything
+              about. At Trés Mink our customers now and then know precisely what
+              they need; regardless of whether it’s long charming waves; a tone
+              on tone cashmere blonde like Jennifer Lawrence and Scarlett or a
+              propelled “Multi-Textured Bob” seen strolling the runways of
+              architects like Gucci; whatever your craving it ought to be
+              impressive looking.</p>
+          </div>
+          <div class="col-lg-1 col-md-0 col-sm-0"></div>
+        </div>
+      </div>
+    </div>
+    <!-- tres mink :  About End -->
+
+    <div id="footer-target"></div>
+    <!-- tres mink :  Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- tres mink :  JavaScript Libraries -->
+    <script src="./js/commonNavbar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/easing.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <!-- tres mink :  <script src="js/tresminkbox/js/tresminkbox.min.js"></script> -->
+    <script src="js/main.js"></script>
+    <script src="./js/commonFooter.js"></script>
+    <script>
+      let page = window.location.pathname
+        .split("/")
+        .pop()
+        .split(".")[0]
+        .toLocaleLowerCase();
+      $("#contact,#about,#service,#index").removeClass("active");
+      $("#" + page).addClass("active");
+    </script>
+  </body>
+</html>
