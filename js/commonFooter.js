@@ -13,18 +13,24 @@ document.getElementById("footer-target").innerHTML =
             <div class="row g-5">
                 <div class="col-lg-6 col-md-6">
                     <h4 class="text-light mb-4">Contact us</h4>
+                    <p class="mb-2"><a href="https://g.page/MinkSalonPune?share"><i class="fa fa-map-marker-alt me-3"></i>Tres Mink, Koregaon Park</a></p>
                     <p class="mb-2"><a href="tel:9158983304"><i class="fa fa-phone-alt me-3"></i>+91 9158983304</a></p>
                     <p class="mb-2"><a href="tel:9765333304"><i class="fa fa-phone-alt me-3"></i>+91 9765333304</a></p>
-                    <h4 class="text-light mb-4 pt-2">Follow us on social media</h4>
+                    <p class="mb-2"><a href="https://goo.gl/maps/KozxLZyMcpHGhWXi9"><i class="fa fa-map-marker-alt me-3"></i>Tres Mink, Aundh</a></p>
+                    <p class="mb-2"><a href="tel:7420963304"><i class="fa fa-phone-alt me-3"></i>+91 7420963304</a></p>
+                    <p class="mb-2"><a href="tel:7756833323"><i class="fa fa-phone-alt me-3"></i>+91 7756833323</a></p>
+                    <p class="mb-2"><a href="tel:7420933304"><i class="fa fa-phone-alt me-3"></i>+91 7420933304</a></p>
+                    <p class="mb-2"><a href="https://goo.gl/maps/STJC7QLjayT2p1pW8"><i class="fa fa-map-marker-alt me-3"></i>Salon for gentlemen by Tres Mink</a></p>
+                    <p class="mb-2"><a href="tel:7420933047"><i class="fa fa-phone-alt me-3"></i>+91 7420933047</a></p>
+                    <p class="mb-2"><a href="tel:9730453304"><i class="fa fa-phone-alt me-3"></i>+91 9730453304</a></p>
+                    <br>
                     <div class="d-flex my-2">
                         <a class="btn btn-outline-light btn-social" target="blank" href="https://www.instagram.com/tresminkdeshaileshmistry/"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-light btn-social" target="blank" href="https://www.facebook.com/MINKbyshailesh/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" target="blank" href="https://www.youtube.com/channel/UClO_GqnIPvXIFi1lu2insiw"><i class="fab fa-youtube"></i></a>                   
                     </div>
                     <br>
-                    <h4 class="text-light mb-4">Locate us on map</h4>
-                    <p class="mb-2"><a href="https://g.page/MinkSalonPune?share"><i class="fa fa-map-marker-alt me-3"></i>Liberty Phase-2, Ragvilas Society, Koregaon Park, Pune, Maharashtra-411001</a></p>
-                    <br><p class="text-light mb-4">&copy;<script>document.write(new Date().getFullYear())</script> All Rights Reserved By Tres Mink</p>
+                    <p class="text-light mb-4">&copy;<script>document.write(new Date().getFullYear())</script> All Rights Reserved By Tres Mink</p>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="mapouter"><div class="gmap_canvas">
